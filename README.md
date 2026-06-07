@@ -37,7 +37,8 @@ Built with a high-performance Python backend and a modern cyberpunk-inspired vis
 
 <div align="center">
 
-<img width="100%" src="https://github.com/user-attachments/assets/dashboard-preview"/>
+<img width="1366" height="639" alt="image" src="https://github.com/user-attachments/assets/41937f16-7869-4f81-853c-beea60a6a43b" />
+
 
 ### Main Intelligence Dashboard
 
