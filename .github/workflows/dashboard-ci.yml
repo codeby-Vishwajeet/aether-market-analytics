@@ -1,0 +1,19 @@
+name: Aether Pipeline CI
+
+on: [push, pull_request]
+
+jobs:
+  static-analysis:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code Assets
+      uses: actions/checkout@v4
+
+    - name: Initialize System Stack
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Verify Web Infrastructure Integrity
+      run: |
+        python -m py_compile app.py
